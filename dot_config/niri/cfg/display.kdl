@@ -1,0 +1,28 @@
+// This is where you can put your custom display configurations.
+
+// ────────────── Output Configuration ──────────────
+// You can run `niri msg outputs` to get the correct name and mode for your displays.
+// You will have to remove "/-" and edit it before it takes effect.
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
+
+/-output "eDP-1" {
+	mode "1920x1080@60.019" // Set resolution and refresh rate
+	scale 1 // No scaling (use 2 for HiDPI)
+}
+output "DP-1" {
+    mode "1920x1080@60.000"
+    scale 1
+    position x=0 y=0
+    focus-at-startup
+    // optional extras:
+    // transform "normal"
+    // backdrop-color "#001100"
+}
+
+output "HDMI-A-1" {
+    mode "1920x1080@60.000"
+    scale 1
+    position x=1920 y=0
+    // optional extras:
+    // transform "normal"
+}

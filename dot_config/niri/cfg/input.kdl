@@ -1,0 +1,35 @@
+// You can customise the default input configurations.
+
+// ────────────── Input Configuration ──────────────
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Input
+
+input {
+	keyboard {
+		repeat-delay 200 // Delay before repeats start
+		repeat-rate 45 // Delay between repeat presses
+		xkb {
+			layout "us" // Use a particular keyboard layout
+			options "compose:ralt" // Compose key is right-alt
+		}
+		numlock // Enable numlock on startup
+	}
+
+	touchpad {
+		tap // Enable tap-to-click
+		natural-scroll // Enable natural (macOS-style) scrolling
+	}
+
+	mouse { // Disables mouse accelleration
+		accel-speed 0
+		accel-profile "flat"
+	}
+
+	warp-mouse-to-focus
+	workspace-auto-back-and-forth // Enable workspace back & forth switching
+}
+
+gestures {
+	hot-corners {
+		off
+	}
+}

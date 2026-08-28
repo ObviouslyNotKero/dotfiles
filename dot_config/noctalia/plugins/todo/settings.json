@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1779987835749,
+      "text": "kill tyler",
+      "completed": false,
+      "createdAt": "2026-05-28T17:03:55.749Z",
+      "pageId": 0,
+      "priority": "high",
+      "details": ""
+    }
+  ],
+  "pages": [
+    {
+      "id": 0,
+      "name": "General"
+    }
+  ],
+  "current_page_id": 0,
+  "count": 1,
+  "completedCount": 0,
+  "showCompleted": true,
+  "showBackground": true,
+  "isExpanded": false,
+  "useCustomColors": false,
+  "priorityColors": {
+    "high": "#f44336",
+    "medium": "#2196f3",
+    "low": "#9e9e9e"
+  },
+  "exportPath": "~/Documents",
+  "exportFormat": "markdown",
+  "exportEmptySections": false
+}

@@ -1,0 +1,14 @@
+// Left monitor (DP-1)
+output "DP-1" {
+    mode "1920x1080@60.000"
+    scale 1
+    position x=0 y=0
+    focus-at-startup
+}
+
+// Right monitor (HDMI-A-1)
+output "HDMI-A-1" {
+    mode "2560x1440@60.000"
+    scale 1
+    position x=1920 y=0
+}
